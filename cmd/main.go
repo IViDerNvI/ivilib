@@ -1,3 +1,7 @@
 package cmd
 
-func Main(args []string) {}
+import "fmt"
+
+func Main(args []string) {
+	fmt.Println(args)
+}
